@@ -10,22 +10,18 @@ The data set use in this project contains information on 303 patients and their 
 | --- | --- | --- |
 |  age  | age in years   | integer  | 
 | sex  | sex (1 = male; 0 = female)   | integer  |
-| cp  | chest pain type: 
-1: typical angina , 
-2: atypical angina,
-3: non-anginal pain,
-4: asymptomatic   | integer | 
+| cp  | chest pain type: 1: typical angina , 2: atypical angina,3: non-anginal pain, 4: asymptomatic   | integer | 
 | trestbps | resting blood pressure (in mm Hg on admission to the hospital | integer  |
 | chol  | serum cholestoral in mg/dl  | integer  | 
 | fbs  | (fasting blood sugar &gt; 120 mg/dl) (1 = true; 0 = false)  | integer |
 | restecg  | resting electrocardiographic results: 0: normal, 1: having ST-T wave abnormality, 2: showing probable or definite left ventricular hypertrophy by Estes' criteria  | integer | 
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | 
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | 
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | 
-| Content Cell  | Content Cell  | Content Cell  |
+| thalach | maximum heart rate achieved  | integer  |
+| exang  | exercise induced angina (1 = yes; 0 = no)  | integer  | 
+| oldpeak  | ST depression induced by exercise relative to rest  | float  |
+| slope  | the slope of the peak exercise ST segment: 1: upsloping, 2: flat, 3: downsloping | integer  | 
+| ca | number of major vessels (0-3) colored by flourosopy | integer  |
+| thal | 3 = normal; 6 = fixed defect; 7 = reversable defect  | integer  | 
+| target  | the predicted attribute: 0 = absence , 1 = presence | integer  |
 
 
 ## Components of the Project:
