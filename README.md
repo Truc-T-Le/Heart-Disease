@@ -10,15 +10,11 @@ The data set use in this project contains information on 303 patients and their 
 | --- | --- | --- |
 |  age  | age in years   | integer  | 
 | sex  | sex (1 = male; 0 = female)   | integer  |
-| cp  | chest pain type 
--- Value 1: typical angina 
--- Value 2: atypical angina 
--- Value 3: non-anginal pain 
--- Value 4: asymptomatic  | Content Cell  | 
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | 
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | 
+| cp  | chest pain type: 1: typical angina ,  2: atypical angina, 3: non-anginal pain, 4: asymptomatic   | integer | 
+| trestbps | resting blood pressure (in mm Hg on admission to the hospital | integer  |
+| chol  | serum cholestoral in mg/dl  | integer  | 
+| fbs  | (fasting blood sugar &gt; 120 mg/dl) (1 = true; 0 = false)  | integer |
+| restecg  | resting electrocardiographic results: 0: normal, 1: having ST-T wave abnormality, 2: showing probable or definite left ventricular hypertrophy by Estes' criteria  | integer | 
 | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  | 
 | Content Cell  | Content Cell  | Content Cell  |
