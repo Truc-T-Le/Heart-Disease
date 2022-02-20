@@ -7,7 +7,7 @@ The data set use in this project contains information on 303 patients and their 
 
 
 | Attributes  | Descriptions | Characteristic |
-| ------------- | ------------- | ------------- |
+| --- | --- | --- |
 | Content Cell  | Content Cell  | Content Cell  | 
 | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  | 
