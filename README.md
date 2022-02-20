@@ -5,6 +5,8 @@ In this project, we will be using the [Heart Disease Data](https://archive.ics.u
 ## Content of the Dataset
 The data set use in this project contains information on 303 patients and their attributes. For the purpose of this project, only 14 out of the 76 attributes will be use to build our classification model.
 
+<details><summary>Table of Attributes</summary>
+<p>
 
 | Attributes  | Descriptions | Characteristic |
 | --- | --- | --- |
@@ -23,7 +25,9 @@ The data set use in this project contains information on 303 patients and their 
 | thal | 3 = normal; 6 = fixed defect; 7 = reversable defect  | integer  | 
 | target  | the predicted attribute: 0 = absence , 1 = presence | integer  |
 
-
+</p>
+</details>
+  
 ## Components of the Project:
 - Data Cleaning 
 - Explanatory Analysis and Data Normlaization
