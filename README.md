@@ -2,7 +2,7 @@
 
 In this project, we will be using the [Heart Disease Data](https://archive.ics.uci.edu/ml/datasets/Heart+Disease) from the UCI Machine Learning Repository. The purpose of this project is to create a classification (Machine Learning) model to predict the presence of heart disease in patients given their features. We will use several different classification algorithms on a set of simulated samples that is reflective of the real dataset. We will attempt at optimizing the classification algorithms by using common model fitting techniques such as QR decomposition, LU decomposition, and helosky's Decompositions, therefore, we will construct each algorithm from scratch. 
 
-##Content of the Dataset
+## Content of the Dataset
 The data set use in this project contains information on 303 patients and their attributes. For the purpose of this project, only 14 out of the 76 attributes will be use to build our classification model.
 
 
@@ -24,7 +24,7 @@ The data set use in this project contains information on 303 patients and their 
 | Content Cell  | Content Cell  | Content Cell  |
 
 
-##Components of the Project:
+## Components of the Project:
 - Data Cleaning 
 - Explanatory Analysis and Data Normlaization
 - Least Square Method
