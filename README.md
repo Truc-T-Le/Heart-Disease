@@ -8,9 +8,13 @@ The data set use in this project contains information on 303 patients and their 
 
 | Attributes  | Descriptions | Characteristic |
 | --- | --- | --- |
-| Content Cell  | Content Cell  | Content Cell  | 
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | 
+|  age  | age in years   | integer  | 
+| sex  | sex (1 = male; 0 = female)   | integer  |
+| cp  | chest pain type 
+-- Value 1: typical angina 
+-- Value 2: atypical angina 
+-- Value 3: non-anginal pain 
+-- Value 4: asymptomatic  | Content Cell  | 
 | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  | 
 | Content Cell  | Content Cell  | Content Cell  |
