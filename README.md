@@ -1,6 +1,7 @@
 # Heart-Disease
 
-In this project, we will be using the [Heart Disease Data](https://archive.ics.uci.edu/ml/datasets/Heart+Disease) from the UCI Machine Learning Repository. The purpose of this project is to create a classification (Machine Learning) model to predict the presence of heart disease in patients given their features. We will use several different classification algorithms on a set of simulated samples that is reflective of the real dataset. We will attempt at optimizing the classification algorithms by using common model fitting techniques such as QR decomposition, LU decomposition, and helosky's Decompositions, therefore, we will construct each algorithm from scratch. 
+In this project, we used the [Heart Disease Data](https://archive.ics.uci.edu/ml/datasets/Heart+Disease) from the UCI Machine Learning Repository. The purpose of this project is to create a classification (Machine Learning) model to predict the presence of heart disease in patients given their features. We will be constructing the classification algorithms from scratch using common model fitting techniques to optimize the efficiency and computational complexity of the algorithms. To check if our methods work correctly, we will test each method using a simulated dataset to observe if it will produce the results we want it to. 
+
 
 ## Content of the Dataset
 The data set use in this project contains information on 303 patients and their attributes. For the purpose of this project, only 14 out of the 76 attributes will be use to build our classification model.
@@ -35,10 +36,15 @@ The data set use in this project contains information on 303 patients and their 
   1. QR Decomposition
   2. LU Decomposition
   3. Chelosky's Decompositions
-- Data Simulations (Training Data Set)
-- Model Building/Model Selection (Will run our models using the simulated dataset, and we will then pick the model that has the best accuracy rate to run on the real dataset.)
-  1. Logistic Regression
-  2. Linear Discriminant Analysis
-  3. Newton's Algorithm
+- Model Building
+   1. Logistic Regression
+   2. Linear Discriminant Analysis
+   3. Newton's Algorithm
+- Data Simulations (Check if our methods work correctly)
+  - Split simulated data into training and testing
+  - Check if each of our constructed algorithm works correctly
+- Model Selection
+  - Split the data into training and testing sets and train the model for each of the method.
+  - Run the training set through each model and select the model with the best accuracy result.
 - Conclusion (Results and Visualization)
 
